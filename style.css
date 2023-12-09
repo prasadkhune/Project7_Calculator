@@ -1,0 +1,76 @@
+#main{
+    position: absolute;
+    top: 100px;
+    left: 35%;
+
+    width: 300px;
+    height: 280px;
+    background-color: rgb(62, 110, 181);
+ }
+ input{
+    background-color: #db1886;
+    width: 20%;
+    height: 40px;
+    font-size: 20px;
+    margin: 6px;
+    border-radius: 15px;
+    cursor: pointer;
+ }
+ input:hover {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 30px;
+  }
+#eee{
+    width: 96%;
+    height: 60px;
+    background-color: silver;
+    margin: 1px;
+}
+
+   body{
+    background-color: aqua;
+    background-image: url(./galaxy-art-wallpaper-img204-JPG.jpg) ;
+    background-size: 100%;
+    width: 100%;
+   }
+p{
+    background-color: #d1db18;
+    width: 90%;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: rgb(11, 40, 170);
+    text-shadow: 2px 2px 5px red; 
+}
+.ppp{
+    position: absolute;
+    top: 0px;
+    left: 34%;
+    margin: 10px;
+}
+p:hover{
+    /* font-size: 10px; */
+    background: red;
+}
+h3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 100;
+    animation-direction: alternate-reverse;  
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+ 
